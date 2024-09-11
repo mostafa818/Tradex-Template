@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.sld_show{
+    height: 750px;
+}
+.carousel-caption{
+    bottom: 30%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 5px;
+    height: 5px;
+}
+.carousel-indicators{
+    flex-direction: column;
+    align-items: center;
+    top: 20%;
+    left: 90%;
+    margin: 0;
+}
+.spn1{
+    width: 30%;
+    height: 3px;
+    top: 25%;
+}
+.spn2{
+    width: 35%;
+    height: 2px;
+    top: 30%;
+}
+.abt_img{
+    width: 50%;
+}
+.ovr{
+    top: 3%;
+    left: 5%;
+    box-shadow: 0 0 20px;
+}
+.abt_rt{
+    right: 10%;
+}
+#ourservices{
+    background-image: url(http://dazzlersoftware.com/testwp/munix-pro/wp-content/themes/munix-pro/img/service-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.blue_lines_design::before{
+    content: " ";
+    width: 60px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    top: 60%;
+    left: -70px;
+}
+.blue_design::before{
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    top: 35%;
+    left: -50px;
+}
+.blue_design::after{
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    top: 35%;
+    right: -50px;
+}
+.blue_lines_design::after{
+    content: " ";
+    width: 60px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    top: 60%;
+    right: -70px;
+}
+.actvlnks:hover{
+    color: blue !important;
+}
+.parent:hover .child{
+    top: 0 !important;
+    background-color: white;
+    left: 0;
+    height: 100%;
+    color: black;
+}
+.blue_bx{
+    display: none;
+}
+.hvr_b:hover .blue_bx{
+    display: block;
+}
+.hvr_b:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    padding: 0;
+}
+.team_card:hover{
+    border-bottom: 0 !important;
+    transition-duration: 0.5;
+}
+.team_card:hover .team_member{
+    top: 0;
+    transition-duration: 0.5s;
+}
+.team_member{
+    top: 23%;
+    box-shadow: 0 -1px 20px 0 gray;
+}
+.dec_line::after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: "";
+    background-color: #0c65ed;
+    width: 70px;
+    height: 2px;
+    transform: translate(-50%, -50%);
+}
+.sh_card{
+    box-shadow: 0 -1px 20px 0 gray;
+}
+.rtt_act:hover .rtt1{
+    transform: rotate(15deg) scale(135%);
+    transition-duration: 1s;
+}
+.rtt_act:hover .rtt2{
+    transform: rotate(-15deg) scale(135%);
+    transition-duration: 1s;
+}
+.rtt_act:hover .progress-bar{
+    width: 100% !important;
+}
+.rtt_act:hover .trnslt{
+    transform: translate(50%);
+    transition-duration: 1s;
+}
+.clnts::after{
+    content: " ";
+    width: 40px;
+    height: 4px;
+    background-color: blue;
+    position: absolute;
+    top: 35%;
+    right: -50px;
+}
+.clntss::after{
+    content: " ";
+    width: 60px;
+    height: 2px;
+    background-color: blue;
+    position: absolute;
+    top: 60%;
+    right: -70px;
+}
+.icn{
+    left: 15%;
+    color: rgba(168, 168, 168, 0.774);
+}
+#icn{
+    font-size: 100px;
+}
+footer hr{
+    width: 10%;
+    padding: 1px;
+}
+footer .button:hover{
+    background-color: #0c65ed !important;
+    color: white !important;
+    transition-duration: 0.5s;
+}
+.shdtp{
+    box-shadow: 0 -2px 20px black;
+}
+@media(min-width: 1400px){
+    .pos{
+        position: absolute;
+        bottom: 40%;
+    }
+    .pos2{
+        position: absolute;
+        right: 0;
+        bottom: 40%;
+    }
+}
+@media(max-width: 1024px){
+    .ovr{
+        position: static !important;
+        width: auto !important;
+        margin: 50px !important;
+    }
+    
+}
